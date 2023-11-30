@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #c2c2d6;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: black;
+    width: 320px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    background-color: #1f1f23;
+    text-align: right;
+    line-height: 55px;
+    border: none;
+    outline: none;
+}
+
+#display {
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    background-color: #1f1f23;
+    text-align: right;
+    line-height: 55px;
+    border: none;
+    outline: none;
+}
+
+button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: #3f3f50;
+    font-family: Share Tech Mono, monospace;
+    font-size: 25px;
+    cursor: default;
+}
+
+.clears {
+    width: 160px;
+    grid-row-start: span 2;
+}
+
+.operator {
+    background-color: rgba(255, 166, 0, 0.832);
+}
+
+.operator1 {
+    background-color: rgb(167, 61, 61);
+}
+
+.decoperte {
+    background-color: rgba(255, 166, 0, 0.832);
+}
